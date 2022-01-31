@@ -1,5 +1,7 @@
 # rva -- Reina-Valera Bible on the Command Line
 
+[🇲🇽 Español](README.md) // [🇺🇸 English](README-en.md)
+
 Read the Word of God from your terminal, now in Spanish.
 
 Original implementation created by [bontibon/kjv](https://github.com/bontibon/kjv).

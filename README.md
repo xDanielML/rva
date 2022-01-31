@@ -1,4 +1,5 @@
 # rva -- Biblia Reina-Valera Antigua en la terminal
+
 [🇲🇽 Español](README.md) // [🇺🇸 English](README-en.md)
 
 Lea la Palabra de Dios desde su terminal, ahora en español.
