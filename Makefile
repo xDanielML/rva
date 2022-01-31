@@ -1,24 +1,25 @@
+
 PREFIX = /usr/local
 
-kjv: kjv.sh kjv.awk kjv.tsv
-	cat kjv.sh > $@
+rva: rva.sh rva.awk rva.tsv
+	cat rva.sh > $@
 	echo 'exit 0' >> $@
-	echo '#EOF' >> $@
-	tar cz kjv.awk kjv.tsv >> $@
+	echo "#EOF" >> $@
+	tar cz rva.awk rva.tsv >> $@
 	chmod +x $@
 
-test: kjv.sh
-	shellcheck -s sh kjv.sh
+test: rva.sh
+	shellcheck -s sh rva.sh
 
 clean:
-	rm -f kjv
+	rm -f rva
 
-install: kjv
+install: rva
 	mkdir -p $(DESTDIR)$(PREFIX)/bin
-	cp -f kjv $(DESTDIR)$(PREFIX)/bin
-	chmod 755 $(DESTDIR)$(PREFIX)/bin/kjv
+	cp -f rva $(DESTDIR)$(PREFIX)/bin
+	chmod 755 $(DESTDIR)$(PREFIX)/bin/rva
 
 uninstall:
-	rm -f $(DESTDIR)$(PREFIX)/bin/kjv
+	rm -f $(DESTDIR)$(PREFIX)/bin/rva
 
 .PHONY: test clean install uninstall

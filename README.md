@@ -1,47 +1,63 @@
-# kjv
+# rva -- Biblia Reina-Valera Antigua en la terminal
+[🇲🇽 Español](README.md) // [🇺🇸 English](README-en.md)
 
-Read the Word of God from your terminal
+Lea la Palabra de Dios desde su terminal, ahora en español.
 
-Forked from [https://github.com/bontibon/kjv.git](https://github.com/bontibon/kjv.git) but with the Apocrypha added.
+Implementación original creada por [bontibon/kjv](https://github.com/bontibon/kjv).
+Adaptado del script de [LukeSmithxyz/kjv](https://github.com/LukeSmithxyz/kjv).
 
 
-## Usage
+## Uso
 
-    usage: ./kjv [flags] [reference...]
+uso: rva [flags] [referencia...]
 
-      -l      list books
-      -W      no line wrap
-      -h      show help
+  -l      listar libros
+  -W      sin envoltura de líneas
+  -h      mostrar ayuda
 
-      Reference types:
-          <Book>
-              Individual book
-          <Book>:<Chapter>
-              Individual chapter of a book
-          <Book>:<Chapter>:<Verse>[,<Verse>]...
-              Individual verse(s) of a specific chapter of a book
-          <Book>:<Chapter>-<Chapter>
-              Range of chapters in a book
-          <Book>:<Chapter>:<Verse>-<Verse>
-              Range of verses in a book chapter
-          <Book>:<Chapter>:<Verse>-<Chapter>:<Verse>
-              Range of chapters and verses in a book
+  Tipos de referencias:
+      <Libro>
+          Libro individual
+      <Libro>:<Capítulo>
+          Capítulo individual de un libro
+      <Libro>:<Capítulo>:<Versículo>[,<Versículos>]...
+          Versículo(s) individual(es) de un capítulo específico de un libro.
+      <Libro>:<Capítulo>-<Capítulo>
+          Rango de capítulos en un libro
+      <Libro>:<Capítulo>:<Versículo>-<Versículo>
+          Rango de capítulos y versículos en un libro
+      <Libro>:<Capítulo>:<Verse>-<Capítulo>:<Verse>
+          Rango de capítulos y versos en un libro
 
-          /<Search>
-              All verses that match a pattern
-          <Book>/<Search>
-              All verses in a book that match a pattern
-          <Book>:<Chapter>/<Search>
-              All verses in a chapter of a book that match a pattern
+      /<Búsqueda>
+          Todos los versículos que coinciden con un patrón
+      <Libro>/<Búsqueda>
+          Todos los versículos en un libro que coinciden con un patrón
+      <Libro>:<Capítulo>/<Búsqueda>
+          Todos los versículos en un capítulo de un libro que coinciden con un patrón
 
-## Build
+## Notas
 
-kjv can be built by cloning the repository and then running make:
+- Este programa utiliza la versión llamada [RVA por BibleGateway](https://www.biblegateway.com/versions/Reina-Valera-Antigua-RVA-Biblia/#booklist), sin embargo esta no es la original de 1602, sino una versión muy ligeramente actualizada de 1909.
 
-    git clone https://github.com/lukesmithxyz/kjv.git
-    cd kjv
-    sudo make install
 
-## License
+## TODO
 
-Public domain
+- Incluir apócrifos/deuterocanónicos. La RVA-1909 no actualizó los libros apócrifos, por lo cual se tendrían que actualizar manualmente para incluir aquí.
+- Modificar el algoritmo de búsqueda para ignorar acentuaciones.
+
+
+
+## Instalación
+
+`rva` se puede instalar haciendo
+
+```
+git clone url
+cd rva
+sudo make install
+```
+
+## Licencia
+
+Este script pertenece al dominio público.
