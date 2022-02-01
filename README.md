@@ -10,32 +10,32 @@ Adaptado del script de [LukeSmithxyz/kjv](https://github.com/LukeSmithxyz/kjv).
 
 ## Uso
 
-uso: rva [flags] [referencia...]
-
-  -l      listar libros
-  -W      sin envoltura de líneas
-  -h      mostrar ayuda
-
-  Tipos de referencias:
-      <Libro>
-          Libro individual
-      <Libro>:<Capítulo>
-          Capítulo individual de un libro
-      <Libro>:<Capítulo>:<Versículo>[,<Versículos>]...
-          Versículo(s) individual(es) de un capítulo específico de un libro.
-      <Libro>:<Capítulo>-<Capítulo>
-          Rango de capítulos en un libro
-      <Libro>:<Capítulo>:<Versículo>-<Versículo>
-          Rango de capítulos y versículos en un libro
-      <Libro>:<Capítulo>:<Verse>-<Capítulo>:<Verse>
-          Rango de capítulos y versos en un libro
-
-      /<Búsqueda>
-          Todos los versículos que coinciden con un patrón
-      <Libro>/<Búsqueda>
-          Todos los versículos en un libro que coinciden con un patrón
-      <Libro>:<Capítulo>/<Búsqueda>
-          Todos los versículos en un capítulo de un libro que coinciden con un patrón
+    uso: rva [flags] [referencia...]
+    
+      -l      listar libros
+      -W      sin envoltura de líneas
+      -h      mostrar ayuda
+    
+      Tipos de referencias:
+          <Libro>
+              Libro individual
+          <Libro>:<Capítulo>
+              Capítulo individual de un libro
+          <Libro>:<Capítulo>:<Versículo>[,<Versículos>]...
+              Versículo(s) individual(es) de un capítulo específico de un libro.
+          <Libro>:<Capítulo>-<Capítulo>
+              Rango de capítulos en un libro
+          <Libro>:<Capítulo>:<Versículo>-<Versículo>
+              Rango de capítulos y versículos en un libro
+          <Libro>:<Capítulo>:<Verse>-<Capítulo>:<Verse>
+              Rango de capítulos y versos en un libro
+    
+          /<Búsqueda>
+              Todos los versículos que coinciden con un patrón
+          <Libro>/<Búsqueda>
+              Todos los versículos en un libro que coinciden con un patrón
+          <Libro>:<Capítulo>/<Búsqueda>
+              Todos los versículos en un capítulo de un libro que coinciden con un patrón
 
 ## Notas
 
