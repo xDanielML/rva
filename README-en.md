@@ -39,7 +39,7 @@ Forked from [LukeSmithxyz/kjv](https://github.com/LukeSmithxyz/kjv).
 
 ## Notes
 
-- This program uses [RVA found in BibleGateway](https://www.biblegateway.com/versions/Reina-Valera-Antigua-RVA-Biblia/#booklist), however, it is actually the Reina-Valera from 1909, which is only slightly updated.
+- This program uses the [RVA found in BibleGateway](https://www.biblegateway.com/versions/Reina-Valera-Antigua-RVA-Biblia/#booklist), however, it is actually the Reina-Valera from 1909, which is only slightly updated.
 - The Spanish used in the RVA is about as dated as the English used in the KJV. You shouldn't expect to master Spanish with this, but it would certainly serve as an interesting study tool.
 
 
