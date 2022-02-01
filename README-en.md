@@ -40,7 +40,7 @@ Forked from [LukeSmithxyz/kjv](https://github.com/LukeSmithxyz/kjv).
 ## Notes
 
 - This program uses [RVA found in BibleGateway](https://www.biblegateway.com/versions/Reina-Valera-Antigua-RVA-Biblia/#booklist), however, it is actually the Reina-Valera from 1909, which is only slightly updated.
-- The Spanish used in the RVA is about as dated as the English used in the KJV. You shouldn't expect to master Spanish with this, but it could certainly function as an interesting study tool.
+- The Spanish used in the RVA is about as dated as the English used in the KJV. You shouldn't expect to master Spanish with this, but it would certainly serve as an interesting study tool.
 
 
 ## TODO
@@ -55,11 +55,11 @@ Forked from [LukeSmithxyz/kjv](https://github.com/LukeSmithxyz/kjv).
 Install `rva` by running:
 
 ```
-git clone url
+git clone https://github.com/xDanielML/rva.git
 cd rva
 sudo make install
 ```
 
-## Licencia
+## Licence
 
 This script is in the public domain.

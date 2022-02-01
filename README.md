@@ -51,10 +51,10 @@ Adaptado del script de [LukeSmithxyz/kjv](https://github.com/LukeSmithxyz/kjv).
 
 ## Instalación
 
-`rva` se puede instalar haciendo
+`rva` se puede instalar haciendo:
 
 ```
-git clone url
+git clone https://github.com/xDanielML/rva.git
 cd rva
 sudo make install
 ```
